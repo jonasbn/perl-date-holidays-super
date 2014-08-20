@@ -1,7 +1,5 @@
 package Date::Holidays::Super;
 
-# $Id: Super.pm 1830 2007-03-15 22:02:43Z jonasbn $
-
 use strict;
 use warnings;
 use vars qw($VERSION);
