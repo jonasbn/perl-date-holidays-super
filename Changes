@@ -1,5 +1,14 @@
 Changes file for Date-Holidays-Super
 
+0.04 2014.08.20, maintenance release update not required
+
+- Bumped up license to Artistic 2.0
+
+- Migrated from Module::Build to Dist::Zilla
+
+- Added Perl requirement, landed at Perl 5.6.0 according to Perl::Critic
+
+
 0.03 - Released Thu Mar 15 2007
 
 - Updated MANIFEST.SKIP to a more contemporary version
