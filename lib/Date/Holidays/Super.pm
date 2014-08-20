@@ -6,7 +6,7 @@ use strict;
 use warnings;
 use vars qw($VERSION);
 
-$VERSION = '0.03';
+$VERSION = '0.02';
 
 sub is_holiday {
     return 0;
