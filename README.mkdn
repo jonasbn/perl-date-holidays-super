@@ -1,4 +1,4 @@
-[![CPAN version](https://badge.fury.io/pl/Date%3A%3AHolidays%3A%3ASuper.svg)](http://badge.fury.io/pl/Date-Holidays-Super)
+[![CPAN version](https://badge.fury.io/pl/Date-Holidays-Super.svg)](http://badge.fury.io/pl/Date-Holidays-Super)
 [![Build Status](https://travis-ci.org/jonasbn/Date-Holidays-Super.svg?branch=master)](https://travis-ci.org/jonasbn/Date-Holidays-Super)
 [![Coverage Status](https://coveralls.io/repos/jonasbn/Date-Holidays-Super/badge.png)](https://coveralls.io/r/jonasbn/Date-Holidays-Super)
 
