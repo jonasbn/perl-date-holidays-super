@@ -17,9 +17,9 @@ Date::Holidays::Super - a SUPER class for the Date::Holidays::\* modules
 
         my $mh = MyHolidays->new();
 
-        my $bool = $mh->is_holiday( ... ); 
+        my $bool = $mh->is_holiday( ... );
 
-        my $hashref = $mh->holidays( ... ); 
+        my $hashref = $mh->holidays( ... );
 
 # VERSION
 
@@ -79,7 +79,7 @@ representing day (01-31).
 
 The value for the key in question is the local name for the holiday
 indicated by the day. The resultset will of course vary depending on
-the given country's national holiday. 
+the given country's national holiday.
 
 **holidays** in the SUPER class return a reference to an empty hash,
 since nothing intelligent can be said about holidays without specifying
@@ -93,7 +93,7 @@ module/class.
 [Date::Holidays](https://metacpan.org/pod/Date::Holidays) uses the requirements defined by this module and this
 module can therefor be used with success in conjunction with this.
 
-This is an alternative to the abstract class [Date::Holidays::Abstract](https://metacpan.org/pod/Date::Holidays::Abstract). 
+This is an alternative to the abstract class [Date::Holidays::Abstract](https://metacpan.org/pod/Date::Holidays::Abstract).
 
 Suggestions for changes and extensions are more than welcome.
 
