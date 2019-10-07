@@ -182,7 +182,7 @@ Jonas B. Nielsen, (jonasbn) - C<< <jonasbn@cpan.org> >>
 
 =head1 LICENSE AND COPYRIGHT
 
-Date-Holidays-Super is (C) by Jonas B. Nielsen, (jonasbn) 2004-2014
+Date-Holidays-Super is (C) by Jonas B. Nielsen, (jonasbn) 2004-2019
 
 Date-Holidays-Super is released under the Artistic License 2.0
 
