@@ -13,8 +13,7 @@ install:
 - cpanm --quiet --notest Dist::Zilla::App::Command::cover
 - dzil authordeps | grep -vP '[^\w:]' | xargs -n 5 -P 10 cpanm --quiet --notest --skip-satisfied
 - dzil listdeps --author | cpanm --quiet --notest --skip-satisfied
-- export AUTOMATED_TESTING=1 HARNESS_OPTIONS=j10:c
-  HARNESS_TIMER=1
+- export AUTOMATED_TESTING=1 HARNESS_OPTIONS=j10:c HARNESS_TIMER=1
 - dzil listdeps | grep -vP '[^\w:]' | cpanm --quiet --notest --skip-satisfied
 script:
 - dzil smoke --release --author
@@ -22,4 +21,4 @@ after_success:
 - dzil cover -outputdir cover_db -report coveralls
 notifications:
   slack:
-    secure: DlLwk0mpESC13i/ZOi2CkTn03+pbzNch8KFqpxJyjHia0sq0WWNw5UOdR8zj+QCyL0CBUDwL9OOp2cghDVoXLPvuNcTwotkT0MjHYB7OrHZGQ0hnCzRlDLlBwpxT0DdKO2N7UaIk0Et/ePyGVf7h0XDSqvE6cf0yKDo91ueAfxY=
+    secure: YeMHoNKfG38sMMDX7QO3OlyuAetlZ1VEQgdeWRlpgnYnA+YJr0HI12GIM7ZCF6XuUkJlETwfhloM4TEC53vK/Ys9hXaWNiQyfrwlrujQu6DLqBblekDnDDqLA5WenTdgNnfLkHQwWhF9hvwBZDEf1EQePOhJcmNsMlIo+gR0yBU=
