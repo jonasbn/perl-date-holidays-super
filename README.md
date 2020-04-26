@@ -90,10 +90,10 @@ module/class.
 
 \--
 
-[Date::Holidays](https://metacpan.org/pod/Date::Holidays) uses the requirements defined by this module and this
+[Date::Holidays](https://metacpan.org/pod/Date%3A%3AHolidays) uses the requirements defined by this module and this
 module can therefor be used with success in conjunction with this.
 
-This is an alternative to the abstract class [Date::Holidays::Abstract](https://metacpan.org/pod/Date::Holidays::Abstract).
+This is an alternative to the abstract class [Date::Holidays::Abstract](https://metacpan.org/pod/Date%3A%3AHolidays%3A%3AAbstract).
 
 Suggestions for changes and extensions are more than welcome.
 
@@ -125,8 +125,8 @@ or by sending mail to
 
 # SEE ALSO
 
-- [Date::Holidays::Abstract](https://metacpan.org/pod/Date::Holidays::Abstract)
-- [Date::Holidays](https://metacpan.org/pod/Date::Holidays)
+- [Date::Holidays::Abstract](https://metacpan.org/pod/Date%3A%3AHolidays%3A%3AAbstract)
+- [Date::Holidays](https://metacpan.org/pod/Date%3A%3AHolidays)
 - Date::Holidays::\*
 
 # AUTHOR
