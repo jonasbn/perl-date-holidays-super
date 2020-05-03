@@ -7,3 +7,5 @@ jobs:
     steps:
       - name: Continuous Integration
         uses: jonasbn/ebirah@v0.4.0
+      - name: ebirah test
+        run: docker run --rm --volume $PWD:/tmp jonasbn/ebirah test
