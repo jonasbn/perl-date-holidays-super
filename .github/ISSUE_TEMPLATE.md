@@ -1,16 +1,16 @@
 # Issue Template
 
-### Description
+## Description
 
 _If you raise an issue on bug/issue please provide the requested information, if not, please just provide a description of you issue._
 
-# Bugs and Issues
+## Bugs and Issues
 
 ### Specify what version was used
 
 _Please provide some information on what version of the component used._
 
-```
+```bash
 $ perl -I lib -MDate::Holidays::Super -e 'print "$Date::Holidays::Super::VERSION\n"'
 ```
 
@@ -18,7 +18,7 @@ $ perl -I lib -MDate::Holidays::Super -e 'print "$Date::Holidays::Super::VERSION
 
 _Please provide some information on your **Perl** interpreter._
 
-```
+```bash
 $ perl -V
 ```
 

@@ -12,9 +12,9 @@ Please delete options that are not relevant.
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] This change requires a documentation update
-- [ ] Infrastructure change, which does not change actual code
+- [ ] Infrastructure change
 
-# Checklist:
+## Checklist
 
 - [ ] My code follows the style guidelines of this project, please see the [contribution guidelines](https://github.com/jonasbn/perl-date-holidays/blob/master/CONTRIBUTING.md).
 - [ ] I have performed a self-review of my own code
@@ -25,4 +25,5 @@ Please delete options that are not relevant.
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules
 
-You might think, that this is one crazy checklist, but it is just as much written for the maintainer of the involved software :-)
+You might think, that this is one crazy checklist, but it is just as much
+written for the maintainer of the involved software :-)
