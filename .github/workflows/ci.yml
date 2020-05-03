@@ -6,5 +6,6 @@ jobs:
     name: Continuous Integration
     runs-on: ubuntu-latest
     steps:
+    # REF: https://help.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow#using-the-checkout-action
     - uses: actions/checkout@v2
     - uses: ./.github/actions/ci
