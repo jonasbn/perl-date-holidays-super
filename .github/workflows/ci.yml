@@ -3,9 +3,8 @@ on: push
 
 jobs:
   build:
+    name: Continuous Integration
     runs-on: ubuntu-latest
     steps:
-      - name: Continuous Integration
-        uses: jonasbn/ebirah@v0.4.0
-      - name: ebirah test
-        run: docker run --rm --volume $PWD:/tmp jonasbn/ebirah test
+    - uses: actions/checkout@ebirah_integration
+    - uses: ./.github/actions/ci
