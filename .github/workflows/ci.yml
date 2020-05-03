@@ -1,0 +1,9 @@
+name: CI Action
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Continuous Integration
+        uses: jonasbn/ebirah@v0.4.0
