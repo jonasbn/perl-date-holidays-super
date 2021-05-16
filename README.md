@@ -78,7 +78,7 @@ four digits. The two first representing month (01-12) and the last two
 representing day (01-31).
 
 The value for the key in question is the local name for the holiday
-indicated by the day. The resultset will of course vary depending on
+indicated by the day. The result set will of course vary depending on
 the given country's national holiday.
 
 **holidays** in the SUPER class return a reference to an empty hash,
@@ -99,7 +99,7 @@ Suggestions for changes and extensions are more than welcome.
 
 # DIAGNOSTICS
 
-No special exceptions/diagnostics are used at this time, please see TODO file
+No special exceptions/diagnostics are used at this time.
 
 # CONFIGURATION AND ENVIRONMENT
 
@@ -115,13 +115,9 @@ No known incompatibilities at this time
 
 # BUGS AND LIMITATIONS
 
-Please report issues via CPAN RT:
+Please report issues via GitHub:
 
-    http://rt.cpan.org/NoAuth/Bugs.html?Dist=Date-Holidays-Super
-
-or by sending mail to
-
-    bug-Date-Holidays-Super@rt.cpan.org
+- [GitHub Issues](https://github.com/jonasbn/perl-date-holidays-super/issues)
 
 # SEE ALSO
 
@@ -131,10 +127,10 @@ or by sending mail to
 
 # AUTHOR
 
-Jonas B. Nielsen, (jonasbn) - `<jonasbn@cpan.org>`
+- Jonas Brømsø, (jonasbn) - `<jonasbn@cpan.org>`
 
 # LICENSE AND COPYRIGHT
 
-Date-Holidays-Super is (C) by Jonas B. Nielsen, (jonasbn) 2004-2019
+Date-Holidays-Super is (C) by Jonas Brømsø, (jonasbn) 2004-2021
 
 Date-Holidays-Super is released under the Artistic License 2.0
