@@ -2,7 +2,7 @@ Changes file for Date-Holidays-Super
 
 0.06 2021-05-16 maintenance release update not required
 
-- Changed bug reporting resource to GitHub from RT as per issue #6
+- Changed bug reporting resource to GitHub from RT as per issue #6 via PR #7
 
 - Added MANIFEST.SKIP
 
