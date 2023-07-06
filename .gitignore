@@ -22,3 +22,6 @@ MYMETA.json
 Makefile.PL
 *.sublime-project
 *.sublime-workspace
+Date-Holidays-Super-*
+.ruby-version
+_site/
