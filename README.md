@@ -1,6 +1,6 @@
 [![CPAN version](https://badge.fury.io/pl/Date-Holidays-Super.svg)](https://metacpan.org/pod/Date::Holidays::Super)
 [![Build Status](https://github.com/jonasbn/perl-date-holidays-super/actions/workflows/ci.yml/badge.svg)](https://github.com/jonasbn/perl-date-holidays-super/actions/workflows/ci.yml)
-[![Coverage Status](https://coveralls.io/repos/jonasbn/Date-Holidays-Super/badge.png)](https://coveralls.io/github/jonasbn/perl-date-holidays-super)
+[![Coverage Status](https://coveralls.io/repos/github/jonasbn/Date-Holidays-Super/badge.svg?branch=master)](https://coveralls.io/github/jonasbn/Date-Holidays-Super?branch=master)
 
 # NAME
 
